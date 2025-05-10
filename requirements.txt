@@ -1,5 +1,5 @@
 streamlit==1.22.0
-torch==2.0.1
+torch>=2.2.0
 chromadb==0.3.21
 openai==0.27.0
 llama-index==0.5.4
