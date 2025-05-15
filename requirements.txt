@@ -8,9 +8,11 @@ numpy>=1.26.0
 pandas>=2.0.0,<2.1.0
 
 # Vector DB and retrieval
+pysqlite3-binary>=0.5.0
 chromadb>=0.4.0,<0.7.0
 langchain_chroma==0.2.3
 
 # RAG components
 llama-index==0.10.20
 openai>=1.1.0
+langchain_huggingface>=0.0.1
