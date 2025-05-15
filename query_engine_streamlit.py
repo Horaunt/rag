@@ -1,3 +1,7 @@
+import sys
+import os
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import re
 import requests
 import streamlit as st
